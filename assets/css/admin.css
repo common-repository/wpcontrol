@@ -1,0 +1,249 @@
+
+/* page sizing */
+
+	.toplevel_page_wpcontrol-settings div#wpcontent {
+		font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+		background-color: #f9fbff;
+		height: 100vh;
+		padding: unset;
+	}
+
+	.toplevel_page_wpcontrol-settings div.wrap{
+		color: #3D3D3D;
+		margin: 0;
+	}
+
+	.toplevel_page_wpcontrol-settings div#wpbody-content {
+		/* padding: unset; */
+	}
+
+	
+/* header */
+
+	.wpcontrol-header {
+		
+		margin: auto;
+	}
+
+/* header logo row */  
+
+	.wpcontrol-header-logo-row-container {
+		background-color: #f9fbff;
+	}
+
+	.wpcontrol-header-logo-row {
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		display: flex;
+		box-sizing: border-box;
+		height: 100px;
+		padding: ;
+		width: 750px;
+		margin: auto;
+	}
+
+	.wpcontrol-header-logo-item {
+		float: left;
+		font-size: 30px;
+		display: flex;
+	}
+
+	.wpcontrol-header-controls {
+		color: black;
+		display: flex;
+	}
+
+	.wpcontrol-header-controls-item {
+		display: inline-block;
+	}
+
+	.wpcontrol-header-controls-item-text {
+		font-size: 14px;
+		text-decoration: none;
+		color: #8ba4b7;
+		background-color: #f3f6ff;
+		border-radius: 4px;
+		border: 1px solid #d6e2eb;
+		padding: 10px 15px;
+	}
+
+	.wpcontrol-header-controls-item-text:hover {
+		cursor: pointer;
+		color: #7290a7;
+		border: 1px solid #bbcedd;
+		background-color: #e6ecff;
+	}
+
+
+/* save button popup*/
+
+	.wpcontrol-save-popup-hide {
+		display: none;
+	}
+
+	.wpcontrol-save-popup {
+		font-size: 14px;
+		text-decoration: none;
+		color: #1f7a1f;
+		background-color: #daf1da;
+		border-radius: 20px;
+		border: 1px solid #b5e3b5;
+		padding: 10px 15px;
+		margin-right: 20px;
+	}
+	
+
+
+
+/* header menu options */
+
+	.toplevel_page_wpcontrol-settings .wpcontrol-header-menu-row-container {
+		background-color: white;
+		border-top: 1px solid #DCDCDC;
+		border-bottom: 1px solid #DCDCDC;
+	}
+
+	.wpcontrol-header-menu-row {
+		width: 750px;
+		height: 50px;
+		margin: auto;
+	}
+
+	.wpcontrol-header-menu-item {
+		color: #3c434a;
+		font-size: 14px;
+		display: inline-block;
+		padding: 15px 0px 15px;
+		margin-right: 15px;
+		text-decoration: none;
+
+	}
+
+	.wpcontrol-header-menu-selected {
+		color: #338eef;
+		border-bottom: 2px solid #338eef;
+
+	}
+
+	.wpcontrol-header-menu-hover {
+
+	}
+
+/* body */
+
+	.toplevel_page_wpcontrol-settings .wpcontrol-body-row {
+		background-color: #f9fbff;
+		height: 100%;
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.wpcontrol-body-row-container {
+		width: 750px;
+		margin: auto;
+	}
+
+	.wpcontrol-settings-tab-hidden {
+		display: none;
+	}
+
+	.wpcontrol-settings-tab-active {
+		display: ;
+	}
+
+
+
+/* settings boxes */
+
+	.wpcontrol-settings-container {
+		margin: 25px 0;
+		background-color: white;
+		
+		font-weight: 500;
+	}
+
+	.wpcontrol-settings-title {
+		padding: 15px;
+		border-top: 1px solid #DCDCDC;
+		border-left: 1px solid #DCDCDC;
+		border-right: 1px solid #DCDCDC;
+	}
+
+	.wpcontrol-settings-content {
+		border: 1px solid #DCDCDC;
+		padding: 20px;
+		line-height: 250%;
+	}
+
+	.wpcontrol-settings-content-indent {
+		padding-left: 20px;
+	}
+
+
+/* settings tooltips */
+
+	.wpcontrol-tooltip {
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.wpcontrol-tooltip .wpcontrol-tooltiptext {
+		visibility: hidden;
+		color: ;
+		width: 300px;
+		text-align: center;
+		background-color: white;
+		padding: 20px;
+		font-size: 13px;
+		line-height: 1.4em;
+		text-align: left;
+		border-radius: 2px;
+
+		position: absolute;
+		z-index: 1;
+
+		bottom: 100%;
+		left: 50%; 
+		margin-bottom: -3px;
+		margin-left: -170px; /* Use half of the width (300/2 = + padding 20 = 170), to center the tooltip */
+
+		box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	.wpcontrol-tooltip .wpcontrol-tooltiptext::after {
+		content: " ";
+		position: absolute;
+		top: 100%; /* At the bottom of the tooltip */
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: white transparent transparent transparent;
+	}
+
+	.wpcontrol-tooltip:hover .wpcontrol-tooltiptext {
+		visibility: visible;
+	}
+
+	.wpcontrol-question-circle {
+		margin-bottom: -5px;
+		color: #8c8f99;
+	}
+
+	.wpcontrol-question-circle:hover {
+		color: #6c6f7a;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
